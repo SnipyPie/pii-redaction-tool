@@ -44,6 +44,37 @@ def _same_path(left: Path, right: Path) -> bool:
     return left.resolve(strict=False) == right.resolve(strict=False)
 
 
+def process_file(
+    input_path: Path,
+    output_path: Path,
+    audit_path: Path | None,
+    categories: set[str],
+    dry_run: bool = False,
+) -> tuple[dict[str, object], int]:
+    if not input_path.is_file():
+        raise ValueError(f"Input DOCX does not exist: {input_path}")
+    
+    try:
+        document = load_document(input_path)
+    except Exception as exc:
+        raise ValueError(f"Input is not a readable DOCX: {exc}") from exc
+
+    bindings, warnings = extract_locations(document)
+    accepted, rejected = select_candidates(detect_locations((binding.location for binding in bindings.values()), categories))
+    store = EntityStore()
+    replacement_values = {detection.detection_id: store.replacement_for(detection.candidate.category, detection.candidate.normalized_value) for detection in accepted}
+
+    if not dry_run:
+        warnings.extend(apply_replacements(bindings, ((detection, replacement_values[detection.detection_id].value) for detection in accepted)))
+        try:
+            save_and_reopen(document, output_path)
+        except Exception as exc:
+            raise RuntimeError(f"Could not save/reopen output DOCX: {exc}") from exc
+
+    payload = write_audit(audit_path, input_path, None if dry_run else output_path, accepted, replacement_values, rejected, warnings)
+    return payload, 0
+
+
 def run(args: argparse.Namespace) -> tuple[dict[str, object], int]:
     input_path: Path = args.input_docx
     output_path: Path = args.output
@@ -57,22 +88,13 @@ def run(args: argparse.Namespace) -> tuple[dict[str, object], int]:
     if audit_path.exists() and not args.overwrite:
         raise ValueError(f"Audit already exists (use --overwrite): {audit_path}")
     categories = _parse_categories(args.categories)
-    try:
-        document = load_document(input_path)
-    except Exception as exc:  # python-docx wraps malformed archive/XML errors variably.
-        raise ValueError(f"Input is not a readable DOCX: {exc}") from exc
-    bindings, warnings = extract_locations(document)
-    accepted, rejected = select_candidates(detect_locations((binding.location for binding in bindings.values()), categories))
-    store = EntityStore()
-    replacement_values = {detection.detection_id: store.replacement_for(detection.candidate.category, detection.candidate.normalized_value) for detection in accepted}
-    if not args.dry_run:
-        warnings.extend(apply_replacements(bindings, ((detection, replacement_values[detection.detection_id].value) for detection in accepted)))
-        try:
-            save_and_reopen(document, output_path)
-        except Exception as exc:
-            raise RuntimeError(f"Could not save/reopen output DOCX: {exc}") from exc
-    payload = write_audit(audit_path, input_path, None if args.dry_run else output_path, accepted, replacement_values, rejected, warnings)
-    return payload, 0
+    return process_file(
+        input_path=input_path,
+        output_path=output_path,
+        audit_path=audit_path,
+        categories=categories,
+        dry_run=args.dry_run,
+    )
 
 
 def main(argv: list[str] | None = None) -> int:
