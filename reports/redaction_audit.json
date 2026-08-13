@@ -1,0 +1,7801 @@
+{
+  "counts_by_category": {
+    "ADDRESS": 11,
+    "COMPANY": 82,
+    "EMAIL": 52,
+    "PERSON_NAME": 212,
+    "PHONE": 19
+  },
+  "detected": [
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0001",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 115
+      },
+      "original_sha256": "acddc29c09f2f62747d5cf17cb1896c4112aced9adc87c2e05097f89bb90da67",
+      "replacement": "Example Company 001 Pvt. Ltd.",
+      "span": {
+        "end": 301,
+        "start": 277
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0002",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 167
+      },
+      "original_sha256": "5906943a1af3be01289177c3134b8e34332165551eb4ead2617c6f01f35128c3",
+      "replacement": "Example Company 002 Pvt. Ltd.",
+      "span": {
+        "end": 291,
+        "start": 248
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0003",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 226
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 52,
+        "start": 31
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0004",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 226
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 73,
+        "start": 54
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0005",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 226
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 93,
+        "start": 75
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0006",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 226
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 117,
+        "start": 98
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0007",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 227
+      },
+      "original_sha256": "b05f4672239530ae0584494b287e2e4ebea909d9048a24d561da4f29b7f0ff15",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 45,
+        "start": 30
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0008",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 227
+      },
+      "original_sha256": "9c6739d70549767b64c7e8b47031d75ac3c5ce1626c6c092ca5713173dc01bc0",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 62,
+        "start": 52
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0009",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 227
+      },
+      "original_sha256": "4ba4a06f182943ca89a0e3e4b04f02c08ecd0ea484d2cec5d8f6d7265d129fe2",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 86,
+        "start": 69
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0010",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 227
+      },
+      "original_sha256": "3ca6084231ac902a9025db869f838c554c2cb245c96fe31b61046282b28b29d8",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 132,
+        "start": 115
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0011",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 25
+      },
+      "original_sha256": "65faf581a11c9deaff439bd176c0f278a559dba0c5c9b552674798b560c0dcdf",
+      "replacement": "Example Company 003 Pvt. Ltd.",
+      "span": {
+        "end": 84,
+        "start": 44
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0012",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 25
+      },
+      "original_sha256": "65faf581a11c9deaff439bd176c0f278a559dba0c5c9b552674798b560c0dcdf",
+      "replacement": "Example Company 003 Pvt. Ltd.",
+      "span": {
+        "end": 356,
+        "start": 316
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0013",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 25
+      },
+      "original_sha256": "3b2a1bff7f4970cfbcea01480053483421fac8de66d1820316713d5ad02943ea",
+      "replacement": "Example Company 004 Pvt. Ltd.",
+      "span": {
+        "end": 395,
+        "start": 362
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0014",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 25
+      },
+      "original_sha256": "6159fa52a5742e5c748add604eebfa17c21e5be4a279b46a2718ee13529aa9d4",
+      "replacement": "Example Company 005 Pvt. Ltd.",
+      "span": {
+        "end": 1554,
+        "start": 1529
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0015",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 263
+      },
+      "original_sha256": "ced6b17e72eac520e625eb43091824cdc01dcf1c33cf8b2cfb49d3ad6b044bfb",
+      "replacement": "Example Company 006 Pvt. Ltd.",
+      "span": {
+        "end": 40,
+        "start": 30
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0016",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 268
+      },
+      "original_sha256": "ced6b17e72eac520e625eb43091824cdc01dcf1c33cf8b2cfb49d3ad6b044bfb",
+      "replacement": "Example Company 006 Pvt. Ltd.",
+      "span": {
+        "end": 38,
+        "start": 28
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "medium",
+      "id": "det-0017",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 27
+      },
+      "original_sha256": "3edc03b5741adcbd1ee964a85e95d4dba6fd4b529aff97b81b298303e7b0697a",
+      "replacement": "101 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 116,
+        "start": 19
+      },
+      "validation": [
+        "address_context",
+        "address_signals:3"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0018",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 277
+      },
+      "original_sha256": "ced6b17e72eac520e625eb43091824cdc01dcf1c33cf8b2cfb49d3ad6b044bfb",
+      "replacement": "Example Company 006 Pvt. Ltd.",
+      "span": {
+        "end": 40,
+        "start": 30
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "medium",
+      "id": "det-0019",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 28
+      },
+      "original_sha256": "2318e74aeeefaa72b64f01bb8fc17aefc5d5a9e4261bd83244d18b0be5633c96",
+      "replacement": "102 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 118,
+        "start": 18
+      },
+      "validation": [
+        "address_context",
+        "address_signals:4"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0020",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 283
+      },
+      "original_sha256": "ced6b17e72eac520e625eb43091824cdc01dcf1c33cf8b2cfb49d3ad6b044bfb",
+      "replacement": "Example Company 006 Pvt. Ltd.",
+      "span": {
+        "end": 38,
+        "start": 28
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0021",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 29
+      },
+      "original_sha256": "4ba4a06f182943ca89a0e3e4b04f02c08ecd0ea484d2cec5d8f6d7265d129fe2",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 33,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0022",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 29
+      },
+      "original_sha256": "27590b62241120640f719619a7c3a7fbe1bd164e47e14ac02585b53433375a36",
+      "replacement": "+91 90000 00001",
+      "span": {
+        "end": 105,
+        "start": 88
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0023",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 30
+      },
+      "original_sha256": "59d115acd6b869e83d47ffac9ac7e89e50d53d37bc1c5bc9cf083316ae81203a",
+      "replacement": "user001@example.test",
+      "span": {
+        "end": 39,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0024",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 307
+      },
+      "original_sha256": "acddc29c09f2f62747d5cf17cb1896c4112aced9adc87c2e05097f89bb90da67",
+      "replacement": "Example Company 001 Pvt. Ltd.",
+      "span": {
+        "end": 297,
+        "start": 273
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0025",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 429
+      },
+      "original_sha256": "3b2a1bff7f4970cfbcea01480053483421fac8de66d1820316713d5ad02943ea",
+      "replacement": "Example Company 004 Pvt. Ltd.",
+      "span": {
+        "end": 313,
+        "start": 280
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0026",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 441
+      },
+      "original_sha256": "65faf581a11c9deaff439bd176c0f278a559dba0c5c9b552674798b560c0dcdf",
+      "replacement": "Example Company 003 Pvt. Ltd.",
+      "span": {
+        "end": 143,
+        "start": 103
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0027",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 441
+      },
+      "original_sha256": "3b2a1bff7f4970cfbcea01480053483421fac8de66d1820316713d5ad02943ea",
+      "replacement": "Example Company 004 Pvt. Ltd.",
+      "span": {
+        "end": 182,
+        "start": 149
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0028",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 442
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 106,
+        "start": 87
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0029",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 443
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 117,
+        "start": 99
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0030",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 444
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 113,
+        "start": 95
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0031",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 456
+      },
+      "original_sha256": "f96a7a03878b1faa658fce875c0f7aa76b7101e566db3a57fa561928ef25afcd",
+      "replacement": "Example Company 007 Pvt. Ltd.",
+      "span": {
+        "end": 184,
+        "start": 178
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0032",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 464
+      },
+      "original_sha256": "acddc29c09f2f62747d5cf17cb1896c4112aced9adc87c2e05097f89bb90da67",
+      "replacement": "Example Company 001 Pvt. Ltd.",
+      "span": {
+        "end": 197,
+        "start": 173
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0033",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 488
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 52,
+        "start": 31
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0034",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 488
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 73,
+        "start": 54
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0035",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 488
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 93,
+        "start": 75
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0036",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 488
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 117,
+        "start": 98
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0037",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 489
+      },
+      "original_sha256": "b05f4672239530ae0584494b287e2e4ebea909d9048a24d561da4f29b7f0ff15",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 45,
+        "start": 30
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0038",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 489
+      },
+      "original_sha256": "9c6739d70549767b64c7e8b47031d75ac3c5ce1626c6c092ca5713173dc01bc0",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 62,
+        "start": 52
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0039",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 489
+      },
+      "original_sha256": "4ba4a06f182943ca89a0e3e4b04f02c08ecd0ea484d2cec5d8f6d7265d129fe2",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 86,
+        "start": 69
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0040",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 489
+      },
+      "original_sha256": "3ca6084231ac902a9025db869f838c554c2cb245c96fe31b61046282b28b29d8",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 132,
+        "start": 115
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0041",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 49
+      },
+      "original_sha256": "6159fa52a5742e5c748add604eebfa17c21e5be4a279b46a2718ee13529aa9d4",
+      "replacement": "Example Company 005 Pvt. Ltd.",
+      "span": {
+        "end": 154,
+        "start": 129
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0042",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 618
+      },
+      "original_sha256": "cc51bd39854cd82ce4f0d5435ca8bce7c6063adc8d91be8cfb463c30fe528876",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 81,
+        "start": 62
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0043",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 618
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 102,
+        "start": 83
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0044",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 618
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 122,
+        "start": 104
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0045",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 633
+      },
+      "original_sha256": "4275a931d9d5bcd7d80f79bf1e2a7a8f442fa0de1f1861aca20dd972352be21e",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 175,
+        "start": 160
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0046",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 634
+      },
+      "original_sha256": "3e6a24203114f6cbf762df254cc97f323110fd360e619a12f594d4c64204c5a3",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 381,
+        "start": 359
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0047",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 634
+      },
+      "original_sha256": "b94e6a36dd26a395ffb78109193fdd831c447063b51809960de6e2ab88a7e89b",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 404,
+        "start": 386
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0048",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 668
+      },
+      "original_sha256": "658c190b445794f3804436b6f09df08d4b6a14d518b7193274335954af99fa54",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 1058,
+        "start": 1032
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0049",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 680
+      },
+      "original_sha256": "e2b1bdf01e42e2902eb035156ec042284d0d1c711656d03e687b49076ef47dd3",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 223,
+        "start": 211
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0050",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 686
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 68,
+        "start": 47
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0051",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 686
+      },
+      "original_sha256": "fe47bae0d5503b693bcacca0e4253e6d4044bdf935d65f527a32953c7ce20674",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 110,
+        "start": 88
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0052",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 690
+      },
+      "original_sha256": "8f02d6c9b569fcf498743a18d3a850fccaf5ed84b6168964ff71f93a9a486460",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 36,
+        "start": 25
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0053",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 719
+      },
+      "original_sha256": "a925da9ba44ee5281396baff1e6a61914779059587f1f046633cbdb11d053ed6",
+      "replacement": "Example Company 008 Pvt. Ltd.",
+      "span": {
+        "end": 58,
+        "start": 25
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0054",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 724
+      },
+      "original_sha256": "a925da9ba44ee5281396baff1e6a61914779059587f1f046633cbdb11d053ed6",
+      "replacement": "Example Company 008 Pvt. Ltd.",
+      "span": {
+        "end": 57,
+        "start": 24
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0055",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 742
+      },
+      "original_sha256": "4ba4a06f182943ca89a0e3e4b04f02c08ecd0ea484d2cec5d8f6d7265d129fe2",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0056",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 742
+      },
+      "original_sha256": "17c0ea96fd86cd3a8c2dab873c3e0408415ca36262cf04d3cc9257176fde0ed1",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 117,
+        "start": 111
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0057",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 742
+      },
+      "original_sha256": "9c982a6ba4249cca5039407b2697a8347a70b1ad8416d777aff6907ecb7becdf",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 154,
+        "start": 137
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0058",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 746
+      },
+      "original_sha256": "a386f590ca43376ba03cc0bae53493c6c1eddf1332ed6279ff818bd33f9730cc",
+      "replacement": "user002@example.test",
+      "span": {
+        "end": 46,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0059",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 754
+      },
+      "original_sha256": "5b0959bc8ea5321a421b072874b5cba389f4600a397acc5dfce113a2e38eb6df",
+      "replacement": "Example Company 009 Pvt. Ltd.",
+      "span": {
+        "end": 32,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0060",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 757
+      },
+      "original_sha256": "54808e67ea03f3a4afc7d61dadf41fbd5d0cc1acb73a18c1467762486aa5cb34",
+      "replacement": "user003@example.test",
+      "span": {
+        "end": 52,
+        "start": 34
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0061",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 758
+      },
+      "original_sha256": "a1b18de93f943150b6968aa27ac9e92488e12d2b7afbab5194fdf8c5ceb10dad",
+      "replacement": "user004@example.test",
+      "span": {
+        "end": 56,
+        "start": 27
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0062",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 759
+      },
+      "original_sha256": "7d912cab1889aaaf31a33efb4073661d07ebd291e966ba45c49a116ae62c607a",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 27,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0063",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 759
+      },
+      "original_sha256": "bfb50664ad8d97831e48c73a9478bdb813c175c191e110b726d7faaebec393f0",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 43,
+        "start": 29
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0064",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 763
+      },
+      "original_sha256": "13e7d4dffd909e3a8121d4ab9c4aa1dc248be4e0a45292b278b81d6fdd6088e6",
+      "replacement": "+91 90000 00002",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0065",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 763
+      },
+      "original_sha256": "16ada0cfb0d996b2cdf5cd0ba6ce4610cd0b14f3e6ff38a2ab4a360c1c17d83e",
+      "replacement": "user005@example.test",
+      "span": {
+        "end": 58,
+        "start": 35
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0066",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 763
+      },
+      "original_sha256": "0b215450231a5a5931dfe1d0e202fa41ca6d4494a6f175d204870cbb8e793be1",
+      "replacement": "user006@example.test",
+      "span": {
+        "end": 151,
+        "start": 119
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0067",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 764
+      },
+      "original_sha256": "e3fd049d7fe9146d07f7aacb685a2decaf932437a9152dbe30a5de23cc1a597e",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 30,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0068",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 764
+      },
+      "original_sha256": "96ec45c37b6d588e19a98fa03d79f79cca3a51c629c20672a8342b9ef2954f3a",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 44,
+        "start": 31
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0069",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 776
+      },
+      "original_sha256": "5b0959bc8ea5321a421b072874b5cba389f4600a397acc5dfce113a2e38eb6df",
+      "replacement": "Example Company 009 Pvt. Ltd.",
+      "span": {
+        "end": 32,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0070",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 780
+      },
+      "original_sha256": "bc287f56576de894ffafca1160d6b866504b241808b5647e25375b80390b8b6a",
+      "replacement": "+91 90000 00003",
+      "span": {
+        "end": 28,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0071",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 781
+      },
+      "original_sha256": "54808e67ea03f3a4afc7d61dadf41fbd5d0cc1acb73a18c1467762486aa5cb34",
+      "replacement": "user003@example.test",
+      "span": {
+        "end": 25,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0072",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 781
+      },
+      "original_sha256": "d0fe88de18578b688ae1b157d0df80de163f1e73ffd4cca5f20f9d617f3995ae",
+      "replacement": "user007@example.test",
+      "span": {
+        "end": 53,
+        "start": 27
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0073",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 781
+      },
+      "original_sha256": "c2b5f600b1c8817fe18ea61e055905f6e8e086fa1990371415ca7636ad605d2f",
+      "replacement": "user008@example.test",
+      "span": {
+        "end": 83,
+        "start": 59
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0074",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 783
+      },
+      "original_sha256": "edb0034e7803588ff5c44d71461d94381133742658d321bfb630a15330bb89f3",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 31,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0075",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 787
+      },
+      "original_sha256": "13e7d4dffd909e3a8121d4ab9c4aa1dc248be4e0a45292b278b81d6fdd6088e6",
+      "replacement": "+91 90000 00002",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0076",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 787
+      },
+      "original_sha256": "16ada0cfb0d996b2cdf5cd0ba6ce4610cd0b14f3e6ff38a2ab4a360c1c17d83e",
+      "replacement": "user005@example.test",
+      "span": {
+        "end": 58,
+        "start": 35
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0077",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 788
+      },
+      "original_sha256": "0b215450231a5a5931dfe1d0e202fa41ca6d4494a6f175d204870cbb8e793be1",
+      "replacement": "user006@example.test",
+      "span": {
+        "end": 59,
+        "start": 27
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0078",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 789
+      },
+      "original_sha256": "e3fd049d7fe9146d07f7aacb685a2decaf932437a9152dbe30a5de23cc1a597e",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 30,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0079",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 789
+      },
+      "original_sha256": "96ec45c37b6d588e19a98fa03d79f79cca3a51c629c20672a8342b9ef2954f3a",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 44,
+        "start": 31
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0080",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 797
+      },
+      "original_sha256": "16a1ec370dd82cb35e415d26e23a736c33ad0752a9687d86c1be64318958e8fa",
+      "replacement": "user009@example.test",
+      "span": {
+        "end": 23,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0081",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 798
+      },
+      "original_sha256": "632e29e75127f02c7a2cfda1691392e771d8ccc67250de882adfdbd69338fdcb",
+      "replacement": "+91 90000 00004",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0082",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 801
+      },
+      "original_sha256": "f257cdef32a17928a26b4fe7d37293fb35586e5cfde34422480dcf6f7ed1eee2",
+      "replacement": "Example Company 010 Pvt. Ltd.",
+      "span": {
+        "end": 33,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0083",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 801
+      },
+      "original_sha256": "5f7d1b6fb2fb1a2f87f09378c146652fb61fa40dd565408e0c56763fbb3bf266",
+      "replacement": "Example Company 011 Pvt. Ltd.",
+      "span": {
+        "end": 77,
+        "start": 35
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0084",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 802
+      },
+      "original_sha256": "05cce92c2f49b467623c834909094d46587875d89980c466f57ebe9203b1e812",
+      "replacement": "+91 90000 00005",
+      "span": {
+        "end": 101,
+        "start": 86
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0085",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 803
+      },
+      "original_sha256": "7ce24de99d9ffdb52b23492ee0635ed2d19b3dbdb4f1f634a84e101d432f177b",
+      "replacement": "user010@example.test",
+      "span": {
+        "end": 45,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0086",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 804
+      },
+      "original_sha256": "7ce24de99d9ffdb52b23492ee0635ed2d19b3dbdb4f1f634a84e101d432f177b",
+      "replacement": "user010@example.test",
+      "span": {
+        "end": 64,
+        "start": 27
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0087",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 805
+      },
+      "original_sha256": "3684399e618a2d7e9da0639461b35a6c9ef36a323637e81a6dc93c9ea475788b",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 84,
+        "start": 46
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0088",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 808
+      },
+      "original_sha256": "e4c3317eef6d1e82c207b2f65c4846e7b5ad8c1409b38c39d976c8674c424214",
+      "replacement": "Example Company 012 Pvt. Ltd.",
+      "span": {
+        "end": 61,
+        "start": 15
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0089",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 809
+      },
+      "original_sha256": "41835878b65592653bfea58e2bd35dd9ebe58f7f91af1b5f075ed6c0ead22598",
+      "replacement": "Example Company 013 Pvt. Ltd.",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0090",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 812
+      },
+      "original_sha256": "d6ab25f1247104c67f8495bff34b0235f05379d5f7d1c678841693ed43ebf0e9",
+      "replacement": "user011@example.test",
+      "span": {
+        "end": 36,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0091",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 812
+      },
+      "original_sha256": "ff94ade1270122c6e89127143478ac004cf1d8c02357a8b5f3602f3a9075c1f1",
+      "replacement": "user012@example.test",
+      "span": {
+        "end": 64,
+        "start": 38
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0092",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 812
+      },
+      "original_sha256": "996c6c5d54646d74e0ebf787ec668b1ee1cb141fb278613e084ea8c1e6b54dca",
+      "replacement": "user013@example.test",
+      "span": {
+        "end": 88,
+        "start": 65
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0093",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 812
+      },
+      "original_sha256": "3783c27b295732301d79edeb74474d66cef1582afa956780d3716b0b38587ba5",
+      "replacement": "user014@example.test",
+      "span": {
+        "end": 118,
+        "start": 90
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0094",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 812
+      },
+      "original_sha256": "839975e7a605119024611844d4213d61c09014660e1abd6c761a7cef3bd07c47",
+      "replacement": "user015@example.test",
+      "span": {
+        "end": 149,
+        "start": 124
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0095",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 813
+      },
+      "original_sha256": "273f3fb141ffda408612870392fb62046469ae2ddaedbb3cd0e7ce33d1a0e27c",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 26,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0096",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 813
+      },
+      "original_sha256": "da8a4d58f94da9cc161759157cd3fdf0a5faf9a67db1e93116544e2f3a902cb9",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 41,
+        "start": 28
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0097",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 813
+      },
+      "original_sha256": "7d449d87321498ce0c0b83fd07f92e63c7de8ca34657602a4bcf159ba2be02ad",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 54,
+        "start": 43
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0098",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 813
+      },
+      "original_sha256": "33b4d462056b98e623a7d378fae051c73e465c2fed2c63a722ebc23b2edc24a2",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 72,
+        "start": 56
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0099",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 813
+      },
+      "original_sha256": "c79022b80b6d55fbe7f57a2124aebaa13f84124d2e0547c35599464bb19692fd",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 89,
+        "start": 74
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0100",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 818
+      },
+      "original_sha256": "57408d93a70684e9f62f5752d9c71139c0d30ecd1e43df5b3047a9ad31610137",
+      "replacement": "Example Company 014 Pvt. Ltd.",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0101",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 820
+      },
+      "original_sha256": "6358cb6a91158d698468f0703901dd33e62b440c144f37e2509fa2c7e9da2ad0",
+      "replacement": "user016@example.test",
+      "span": {
+        "end": 131,
+        "start": 111
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0102",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 820
+      },
+      "original_sha256": "0dea95ee210883fd70ecc2f5e75d756ff858dc3941fe282c040556a874ddddee",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 186,
+        "start": 175
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0103",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 824
+      },
+      "original_sha256": "41835878b65592653bfea58e2bd35dd9ebe58f7f91af1b5f075ed6c0ead22598",
+      "replacement": "Example Company 013 Pvt. Ltd.",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0104",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 825
+      },
+      "original_sha256": "41835878b65592653bfea58e2bd35dd9ebe58f7f91af1b5f075ed6c0ead22598",
+      "replacement": "Example Company 013 Pvt. Ltd.",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0105",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 828
+      },
+      "original_sha256": "d6ab25f1247104c67f8495bff34b0235f05379d5f7d1c678841693ed43ebf0e9",
+      "replacement": "user011@example.test",
+      "span": {
+        "end": 36,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0106",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 828
+      },
+      "original_sha256": "ff94ade1270122c6e89127143478ac004cf1d8c02357a8b5f3602f3a9075c1f1",
+      "replacement": "user012@example.test",
+      "span": {
+        "end": 64,
+        "start": 38
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0107",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 828
+      },
+      "original_sha256": "996c6c5d54646d74e0ebf787ec668b1ee1cb141fb278613e084ea8c1e6b54dca",
+      "replacement": "user013@example.test",
+      "span": {
+        "end": 88,
+        "start": 65
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0108",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 828
+      },
+      "original_sha256": "3783c27b295732301d79edeb74474d66cef1582afa956780d3716b0b38587ba5",
+      "replacement": "user014@example.test",
+      "span": {
+        "end": 118,
+        "start": 90
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0109",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 828
+      },
+      "original_sha256": "839975e7a605119024611844d4213d61c09014660e1abd6c761a7cef3bd07c47",
+      "replacement": "user015@example.test",
+      "span": {
+        "end": 149,
+        "start": 124
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0110",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 829
+      },
+      "original_sha256": "273f3fb141ffda408612870392fb62046469ae2ddaedbb3cd0e7ce33d1a0e27c",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 26,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0111",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 829
+      },
+      "original_sha256": "da8a4d58f94da9cc161759157cd3fdf0a5faf9a67db1e93116544e2f3a902cb9",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 41,
+        "start": 28
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0112",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 829
+      },
+      "original_sha256": "7d449d87321498ce0c0b83fd07f92e63c7de8ca34657602a4bcf159ba2be02ad",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 54,
+        "start": 43
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0113",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 829
+      },
+      "original_sha256": "33b4d462056b98e623a7d378fae051c73e465c2fed2c63a722ebc23b2edc24a2",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 72,
+        "start": 56
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0114",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 829
+      },
+      "original_sha256": "c79022b80b6d55fbe7f57a2124aebaa13f84124d2e0547c35599464bb19692fd",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 89,
+        "start": 74
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0115",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 834
+      },
+      "original_sha256": "57408d93a70684e9f62f5752d9c71139c0d30ecd1e43df5b3047a9ad31610137",
+      "replacement": "Example Company 014 Pvt. Ltd.",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0116",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 836
+      },
+      "original_sha256": "6358cb6a91158d698468f0703901dd33e62b440c144f37e2509fa2c7e9da2ad0",
+      "replacement": "user016@example.test",
+      "span": {
+        "end": 131,
+        "start": 111
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0117",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 836
+      },
+      "original_sha256": "0dea95ee210883fd70ecc2f5e75d756ff858dc3941fe282c040556a874ddddee",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 186,
+        "start": 175
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0118",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 839
+      },
+      "original_sha256": "41835878b65592653bfea58e2bd35dd9ebe58f7f91af1b5f075ed6c0ead22598",
+      "replacement": "Example Company 013 Pvt. Ltd.",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0119",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 840
+      },
+      "original_sha256": "41835878b65592653bfea58e2bd35dd9ebe58f7f91af1b5f075ed6c0ead22598",
+      "replacement": "Example Company 013 Pvt. Ltd.",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0120",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 843
+      },
+      "original_sha256": "d6ab25f1247104c67f8495bff34b0235f05379d5f7d1c678841693ed43ebf0e9",
+      "replacement": "user011@example.test",
+      "span": {
+        "end": 36,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0121",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 843
+      },
+      "original_sha256": "ff94ade1270122c6e89127143478ac004cf1d8c02357a8b5f3602f3a9075c1f1",
+      "replacement": "user012@example.test",
+      "span": {
+        "end": 64,
+        "start": 38
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0122",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 843
+      },
+      "original_sha256": "996c6c5d54646d74e0ebf787ec668b1ee1cb141fb278613e084ea8c1e6b54dca",
+      "replacement": "user013@example.test",
+      "span": {
+        "end": 88,
+        "start": 65
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0123",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 843
+      },
+      "original_sha256": "3783c27b295732301d79edeb74474d66cef1582afa956780d3716b0b38587ba5",
+      "replacement": "user014@example.test",
+      "span": {
+        "end": 118,
+        "start": 90
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0124",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 843
+      },
+      "original_sha256": "839975e7a605119024611844d4213d61c09014660e1abd6c761a7cef3bd07c47",
+      "replacement": "user015@example.test",
+      "span": {
+        "end": 149,
+        "start": 124
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0125",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 844
+      },
+      "original_sha256": "273f3fb141ffda408612870392fb62046469ae2ddaedbb3cd0e7ce33d1a0e27c",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 26,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0126",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 844
+      },
+      "original_sha256": "da8a4d58f94da9cc161759157cd3fdf0a5faf9a67db1e93116544e2f3a902cb9",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 41,
+        "start": 28
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0127",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 844
+      },
+      "original_sha256": "7d449d87321498ce0c0b83fd07f92e63c7de8ca34657602a4bcf159ba2be02ad",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 54,
+        "start": 43
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0128",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 844
+      },
+      "original_sha256": "33b4d462056b98e623a7d378fae051c73e465c2fed2c63a722ebc23b2edc24a2",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 72,
+        "start": 56
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0129",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 844
+      },
+      "original_sha256": "c79022b80b6d55fbe7f57a2124aebaa13f84124d2e0547c35599464bb19692fd",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 89,
+        "start": 74
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0130",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 864
+      },
+      "original_sha256": "aa7d830874d2e815dc6e7b36f64946b8597fff40c766b099ce8b0bbfdf429bf6",
+      "replacement": "Example Company 015 Pvt. Ltd.",
+      "span": {
+        "end": 119,
+        "start": 108
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0131",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 866
+      },
+      "original_sha256": "9dec0fafe847db8843503492213058739e10e0646805bcffff7f31063bad22d5",
+      "replacement": "Example Company 016 Pvt. Ltd.",
+      "span": {
+        "end": 84,
+        "start": 77
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0132",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 866
+      },
+      "original_sha256": "4eaf03d66898502ba8b1124d35151129b269bd1aadb57b94e345c4c12c416394",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 149,
+        "start": 128
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0133",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 869
+      },
+      "original_sha256": "aa7d830874d2e815dc6e7b36f64946b8597fff40c766b099ce8b0bbfdf429bf6",
+      "replacement": "Example Company 015 Pvt. Ltd.",
+      "span": {
+        "end": 21,
+        "start": 10
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0134",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 874
+      },
+      "original_sha256": "3e721555ff05d398f95585964da6ac23a8955ede5eae67d320816044e7a124a3",
+      "replacement": "user017@example.test",
+      "span": {
+        "end": 39,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0135",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 875
+      },
+      "original_sha256": "51dbcaf57d22815f9614ce4e5e2336c6cee9f2272bdf4e99990d4cd77169a78e",
+      "replacement": "+91 90000 00006",
+      "span": {
+        "end": 30,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0136",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 888
+      },
+      "original_sha256": "bba067ffc8a2cd4e4988c5b2a68dd14bce9f32c7c0850f8d34aa62d13b743cce",
+      "replacement": "+91 90000 00007",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0137",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 889
+      },
+      "original_sha256": "0d167cc969c2e8539b70475d644f151cfbaefd40569cc3522df10c7f4cfb8105",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 29,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0138",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 891
+      },
+      "original_sha256": "f93dee56571086412452a9becdf2adb45cb4ee2132efb9e141b46304f86481ff",
+      "replacement": "user018@example.test",
+      "span": {
+        "end": 29,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0139",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 899
+      },
+      "original_sha256": "62d6f8750423d84083e5d3181a4cad2d208a6e0d65215e9fc0deafb39b21e0ca",
+      "replacement": "+91 90000 00008",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0140",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 899
+      },
+      "original_sha256": "48b917388099ca3253d3e04ed1ea36ddb40c85a11e883c66777d29c8b2240ae6",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 64,
+        "start": 44
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0141",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 899
+      },
+      "original_sha256": "7ff91f855c0ebff64b9f1c29af6430c617e7ed99e663d1d51bbcc2b3f41da712",
+      "replacement": "user019@example.test",
+      "span": {
+        "end": 115,
+        "start": 95
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0142",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 903
+      },
+      "original_sha256": "d2b3507438b742084a39f05e375a20138a673bfabe5b5b43ef8440bcdb6f57f2",
+      "replacement": "Example Company 017 Pvt. Ltd.",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0143",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 906
+      },
+      "original_sha256": "fa1c80540e3f817e46202430a242877d3458e41c547a14cac133169c3142d112",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 65,
+        "start": 43
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0144",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 906
+      },
+      "original_sha256": "1c18ffe42a108d2836df21c76a0b9d15f0e3461e902990cd70490550f5ddbf73",
+      "replacement": "user020@example.test",
+      "span": {
+        "end": 119,
+        "start": 92
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0145",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 908
+      },
+      "original_sha256": "57408d93a70684e9f62f5752d9c71139c0d30ecd1e43df5b3047a9ad31610137",
+      "replacement": "Example Company 014 Pvt. Ltd.",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0146",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 911
+      },
+      "original_sha256": "4263255903003e79a6942ae213fdc3d56941a8c91000ea3efff4b38d10f38f05",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 63,
+        "start": 43
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0147",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 911
+      },
+      "original_sha256": "4b30759907346d022867f23f9d3e9e46f76b9537db83f9adfcddc5bd1734d239",
+      "replacement": "user021@example.test",
+      "span": {
+        "end": 116,
+        "start": 90
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0148",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 913
+      },
+      "original_sha256": "41835878b65592653bfea58e2bd35dd9ebe58f7f91af1b5f075ed6c0ead22598",
+      "replacement": "Example Company 013 Pvt. Ltd.",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0149",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 917
+      },
+      "original_sha256": "7645fb3ec5f1bc437fe420c13a5c579e6220c41536287140309c653745b15dcc",
+      "replacement": "+91 90000 00009",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0150",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 917
+      },
+      "original_sha256": "ddb001cbfef9489f57de52dec9cea6f8f1e16918ad6bc40627e39280b1ce30fa",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 66,
+        "start": 44
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0151",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 918
+      },
+      "original_sha256": "a2742dc8452b3def5810dccce5a2f8a27ac82599967eafac9887e6ab4dfa5247",
+      "replacement": "user022@example.test",
+      "span": {
+        "end": 34,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0152",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 924
+      },
+      "original_sha256": "61616f5a97753eca398b2ebca38d6f688aac537c33544fb2a7f7decc27c8b444",
+      "replacement": "+91 90000 00010",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0153",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 924
+      },
+      "original_sha256": "833216a8040ce90fdd6d70e5e757319685d1cf514a6f11b98659997fef538b61",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 66,
+        "start": 44
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0154",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 925
+      },
+      "original_sha256": "93ffb31c263dbb527aa63be940223a80d682dae386a3a1d81b66f4eed8ab80b4",
+      "replacement": "user023@example.test",
+      "span": {
+        "end": 28,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0155",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 930
+      },
+      "original_sha256": "cac05d133d6db183b363c2a90b2c77a811e219b1681bcd96a646a852b468e9d2",
+      "replacement": "+91 90000 00011",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0156",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 931
+      },
+      "original_sha256": "26b4bde70c59fd7a98a266333a7ce1067f9c1734b9f6c5ad647ce5e5442d276f",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 37,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0157",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 933
+      },
+      "original_sha256": "3304889d28e86581b5458e2fbd882e205a98f5daed6c0e73ec733ed3a16bb776",
+      "replacement": "user024@example.test",
+      "span": {
+        "end": 33,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0158",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 935
+      },
+      "original_sha256": "d4f7bf6da8beb2d76618ff1be7f863e2b4702786c8c6116f101098b2900b0232",
+      "replacement": "Example Company 018 Pvt. Ltd.",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0159",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 938
+      },
+      "original_sha256": "1f476a7e9416249a51d987d840b763c9441b999f8f335406ba8c0f4e6a19b7fe",
+      "replacement": "+91 90000 00012",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0160",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 938
+      },
+      "original_sha256": "bdc5c79c178cd20315d8cfb448ea02b468a42ecaf77f49cac5787bc484b59bf7",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 62,
+        "start": 44
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0161",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 938
+      },
+      "original_sha256": "a19ddeecc709561310379dcfdf531902fd025d0100a5d75c244eeb04b0f66b31",
+      "replacement": "user025@example.test",
+      "span": {
+        "end": 118,
+        "start": 92
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0162",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 946
+      },
+      "original_sha256": "2f318cab8f6bc4d5731131277d0dc2fbb65160ccc5561c44b9be43959c875e25",
+      "replacement": "Example Company 019 Pvt. Ltd.",
+      "span": {
+        "end": 157,
+        "start": 137
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0163",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 956
+      },
+      "original_sha256": "65a07093bf150e9879769b43302eb02fdc1d1f33860108f6651a21e5c48f667d",
+      "replacement": "Example Company 020 Pvt. Ltd.",
+      "span": {
+        "end": 11,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0164",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 972
+      },
+      "original_sha256": "2fc92f8a1699494599bacb1fca77e3a561143606e47023b6e7327a601ca0fa47",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 222,
+        "start": 200
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0165",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 1
+      },
+      "original_sha256": "f90dd0f66195e06f8f01547c575ea52d9f68961bb6a88dcd7ebdca54e8bf42fc",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0166",
+      "location": {
+        "cell": 5,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 1
+      },
+      "original_sha256": "ced3f844a3443057c73346dcdd2e242dcf1db0f54a4a880f0082aa8df67ae06a",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0167",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 10,
+        "table": 1
+      },
+      "original_sha256": "cc51bd39854cd82ce4f0d5435ca8bce7c6063adc8d91be8cfb463c30fe528876",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0168",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 11,
+        "table": 1
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0169",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 12,
+        "table": 1
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0170",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 13,
+        "table": 1
+      },
+      "original_sha256": "ced6b17e72eac520e625eb43091824cdc01dcf1c33cf8b2cfb49d3ad6b044bfb",
+      "replacement": "Example Company 006 Pvt. Ltd.",
+      "span": {
+        "end": 37,
+        "start": 27
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0171",
+      "location": {
+        "cell": 5,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 2,
+        "table": 1
+      },
+      "original_sha256": "59d115acd6b869e83d47ffac9ac7e89e50d53d37bc1c5bc9cf083316ae81203a",
+      "replacement": "user001@example.test",
+      "span": {
+        "end": 38,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0172",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 1
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 36,
+        "start": 15
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0173",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 1
+      },
+      "original_sha256": "cc51bd39854cd82ce4f0d5435ca8bce7c6063adc8d91be8cfb463c30fe528876",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 57,
+        "start": 38
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0174",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 1
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 78,
+        "start": 59
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0175",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 1
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 98,
+        "start": 80
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0176",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 1
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 119,
+        "start": 100
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0177",
+      "location": {
+        "cell": 6,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 1
+      },
+      "original_sha256": "f9bb71740806628253dfb98f4fa61df00acdf190c43422431709f8ac00521e8a",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0178",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 1
+      },
+      "original_sha256": "6974f1cc8c8c8d098f998a790f4a95634460b1350f99ad723183e03bdb43d3d0",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 89,
+        "start": 65
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0179",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 9,
+        "table": 1
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0180",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 10
+      },
+      "original_sha256": "5b0959bc8ea5321a421b072874b5cba389f4600a397acc5dfce113a2e38eb6df",
+      "replacement": "Example Company 009 Pvt. Ltd.",
+      "span": {
+        "end": 84,
+        "start": 52
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0181",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 10
+      },
+      "original_sha256": "770adc0d72b337317f045f8995c975c981daa041c2687f4078e6bc98804e68f6",
+      "replacement": "Example Company 021 Pvt. Ltd.",
+      "span": {
+        "end": 113,
+        "start": 89
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0182",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 10,
+        "table": 11
+      },
+      "original_sha256": "41835878b65592653bfea58e2bd35dd9ebe58f7f91af1b5f075ed6c0ead22598",
+      "replacement": "Example Company 013 Pvt. Ltd.",
+      "span": {
+        "end": 199,
+        "start": 182
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0183",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 19,
+        "table": 11
+      },
+      "original_sha256": "770adc0d72b337317f045f8995c975c981daa041c2687f4078e6bc98804e68f6",
+      "replacement": "Example Company 021 Pvt. Ltd.",
+      "span": {
+        "end": 24,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0184",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 21,
+        "table": 11
+      },
+      "original_sha256": "2f318cab8f6bc4d5731131277d0dc2fbb65160ccc5561c44b9be43959c875e25",
+      "replacement": "Example Company 019 Pvt. Ltd.",
+      "span": {
+        "end": 104,
+        "start": 84
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0185",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 12
+      },
+      "original_sha256": "5b0959bc8ea5321a421b072874b5cba389f4600a397acc5dfce113a2e38eb6df",
+      "replacement": "Example Company 009 Pvt. Ltd.",
+      "span": {
+        "end": 32,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0186",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 15,
+        "table": 13
+      },
+      "original_sha256": "17228f644348f0c685807f690f968b7e8fa1a12456d1c70cabf4e9634f660d70",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 131,
+        "start": 113
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0187",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 18,
+        "table": 13
+      },
+      "original_sha256": "2968e97fdd35c1eb753313afddae9ca90fc5ce277129f6fae02d0c8265f5d94e",
+      "replacement": "Example Company 022 Pvt. Ltd.",
+      "span": {
+        "end": 25,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0188",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 18,
+        "table": 13
+      },
+      "original_sha256": "6b880e54751bb298b4bb829b9193458ecd55390eaf7d01771d362d94ffe61a13",
+      "replacement": "Example Company 023 Pvt. Ltd.",
+      "span": {
+        "end": 70,
+        "start": 57
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0189",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 21,
+        "table": 13
+      },
+      "original_sha256": "5b0959bc8ea5321a421b072874b5cba389f4600a397acc5dfce113a2e38eb6df",
+      "replacement": "Example Company 009 Pvt. Ltd.",
+      "span": {
+        "end": 40,
+        "start": 8
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0190",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 21,
+        "table": 13
+      },
+      "original_sha256": "770adc0d72b337317f045f8995c975c981daa041c2687f4078e6bc98804e68f6",
+      "replacement": "Example Company 021 Pvt. Ltd.",
+      "span": {
+        "end": 69,
+        "start": 45
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0191",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 13
+      },
+      "original_sha256": "f257cdef32a17928a26b4fe7d37293fb35586e5cfde34422480dcf6f7ed1eee2",
+      "replacement": "Example Company 010 Pvt. Ltd.",
+      "span": {
+        "end": 33,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0192",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 13
+      },
+      "original_sha256": "5f7d1b6fb2fb1a2f87f09378c146652fb61fa40dd565408e0c56763fbb3bf266",
+      "replacement": "Example Company 011 Pvt. Ltd.",
+      "span": {
+        "end": 77,
+        "start": 35
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0193",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 14
+      },
+      "original_sha256": "af867bfc05acf8d8be1f5ac6cf06f03fd84fbccd7c57b58c178a27013304ffe1",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 135,
+        "start": 123
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0194",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 12,
+        "table": 15
+      },
+      "original_sha256": "d77517664301c3e6afb49807df026bfc4d47888d08c6ae413d29a5a41159f477",
+      "replacement": "Example Company 024 Pvt. Ltd.",
+      "span": {
+        "end": 43,
+        "start": 29
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0195",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 15
+      },
+      "original_sha256": "d92061b1a5a71faecfe33e6e63aa42998ab5b6e1717bf7bcda8e8be1cdde9816",
+      "replacement": "Example Company 025 Pvt. Ltd.",
+      "span": {
+        "end": 11,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0196",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 41,
+        "table": 16
+      },
+      "original_sha256": "f360624a38a53bb0c481f8c035b9454c5fd702134a81a6e2b92a283928e649ef",
+      "replacement": "Example Company 026 Pvt. Ltd.",
+      "span": {
+        "end": 29,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0197",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 45,
+        "table": 16
+      },
+      "original_sha256": "d3d386b59a51c326ca0cb48deed2f7457979e6e4924082465f0013ae1190a418",
+      "replacement": "Example Company 027 Pvt. Ltd.",
+      "span": {
+        "end": 38,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0198",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 46,
+        "table": 16
+      },
+      "original_sha256": "6b880e54751bb298b4bb829b9193458ecd55390eaf7d01771d362d94ffe61a13",
+      "replacement": "Example Company 023 Pvt. Ltd.",
+      "span": {
+        "end": 40,
+        "start": 27
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0199",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 47,
+        "table": 19
+      },
+      "original_sha256": "8122d7510b031b12fbfbe6f2702d7c2860877c887c2ff41cafd35d007dd2ccd4",
+      "replacement": "Example Company 028 Pvt. Ltd.",
+      "span": {
+        "end": 29,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0200",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 58,
+        "table": 19
+      },
+      "original_sha256": "07d82e27d1b6d7f67496bdf5d78071fdcbd86525e899a85ff8e601df9159b972",
+      "replacement": "Example Company 029 Pvt. Ltd.",
+      "span": {
+        "end": 24,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0201",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 58,
+        "table": 19
+      },
+      "original_sha256": "6b880e54751bb298b4bb829b9193458ecd55390eaf7d01771d362d94ffe61a13",
+      "replacement": "Example Company 023 Pvt. Ltd.",
+      "span": {
+        "end": 41,
+        "start": 28
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0202",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 12,
+        "table": 2
+      },
+      "original_sha256": "f257cdef32a17928a26b4fe7d37293fb35586e5cfde34422480dcf6f7ed1eee2",
+      "replacement": "Example Company 010 Pvt. Ltd.",
+      "span": {
+        "end": 33,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0203",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 12,
+        "table": 2
+      },
+      "original_sha256": "5f7d1b6fb2fb1a2f87f09378c146652fb61fa40dd565408e0c56763fbb3bf266",
+      "replacement": "Example Company 011 Pvt. Ltd.",
+      "span": {
+        "end": 43,
+        "start": 1
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0204",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 12,
+        "table": 2
+      },
+      "original_sha256": "05cce92c2f49b467623c834909094d46587875d89980c466f57ebe9203b1e812",
+      "replacement": "+91 90000 00005",
+      "span": {
+        "end": 26,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0205",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 12,
+        "table": 2
+      },
+      "original_sha256": "7ce24de99d9ffdb52b23492ee0635ed2d19b3dbdb4f1f634a84e101d432f177b",
+      "replacement": "user010@example.test",
+      "span": {
+        "end": 45,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0206",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 2
+      },
+      "original_sha256": "ab3ff3b823d4b49e1072abbfa39414e90326a9973e859b170a0ac5c6d9dd7734",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 67,
+        "start": 44
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0207",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 2
+      },
+      "original_sha256": "5b0959bc8ea5321a421b072874b5cba389f4600a397acc5dfce113a2e38eb6df",
+      "replacement": "Example Company 009 Pvt. Ltd.",
+      "span": {
+        "end": 32,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0208",
+      "location": {
+        "cell": 8,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 2
+      },
+      "original_sha256": "54808e67ea03f3a4afc7d61dadf41fbd5d0cc1acb73a18c1467762486aa5cb34",
+      "replacement": "user003@example.test",
+      "span": {
+        "end": 25,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0209",
+      "location": {
+        "cell": 8,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 8,
+        "table": 2
+      },
+      "original_sha256": "bc287f56576de894ffafca1160d6b866504b241808b5647e25375b80390b8b6a",
+      "replacement": "+91 90000 00003",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0210",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 9,
+        "table": 2
+      },
+      "original_sha256": "770adc0d72b337317f045f8995c975c981daa041c2687f4078e6bc98804e68f6",
+      "replacement": "Example Company 021 Pvt. Ltd.",
+      "span": {
+        "end": 24,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0211",
+      "location": {
+        "cell": 8,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 9,
+        "table": 2
+      },
+      "original_sha256": "16ada0cfb0d996b2cdf5cd0ba6ce4610cd0b14f3e6ff38a2ab4a360c1c17d83e",
+      "replacement": "user005@example.test",
+      "span": {
+        "end": 30,
+        "start": 7
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0212",
+      "location": {
+        "cell": 8,
+        "kind": "table_cell",
+        "paragraph": 3,
+        "row": 9,
+        "table": 2
+      },
+      "original_sha256": "13e7d4dffd909e3a8121d4ab9c4aa1dc248be4e0a45292b278b81d6fdd6088e6",
+      "replacement": "+91 90000 00002",
+      "span": {
+        "end": 27,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0213",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 15,
+        "table": 24
+      },
+      "original_sha256": "ca034d88dbb5ad604aca8a320dd3e81b25fea42a215a49a8eab2cac8eeba1929",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 13,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0214",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 17,
+        "table": 24
+      },
+      "original_sha256": "37bd6f55e63ab6012c1718df654d6af4bc888789bce196c1741b5d318aa91419",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0215",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 18,
+        "table": 24
+      },
+      "original_sha256": "2700da17e33950aee6903f48f24d2501d3cb56a246937a465c14207dec5d3b37",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 25,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0216",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 19,
+        "table": 24
+      },
+      "original_sha256": "99ed5471d35da1110dadd334f02bd40202f958e2e21871c5df5a2b168a24dac0",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 13,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0217",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 20,
+        "table": 24
+      },
+      "original_sha256": "23e43ae5dbe722c1ffb1833c4fd9ac39137f7f3e2dd80402d24b31f4a555ab64",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 13,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0218",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 24
+      },
+      "original_sha256": "22421858749e6619bbe0df15b4a6279f6310595bd088de358a4aa5363f80c9c7",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0219",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 24
+      },
+      "original_sha256": "6df07765b0a4742ab0f7d964284b7c0d5eded5f4c380859caae6b552b0b556be",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0220",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 24
+      },
+      "original_sha256": "97c7f14095f3c9c4dc805bc398903045927f0901cf036d90851c083459642048",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0221",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 24
+      },
+      "original_sha256": "cc8a69bca1ba2bff6733bb5ae93362f2bb2f0d1a14650abeb063ce4acd01388b",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0222",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 24
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0223",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 3,
+        "table": 25
+      },
+      "original_sha256": "897a63e4ab6364e136c016c2063794672271b324273a7e798417d0483ba04c65",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0224",
+      "location": {
+        "cell": 6,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 3,
+        "table": 25
+      },
+      "original_sha256": "897a63e4ab6364e136c016c2063794672271b324273a7e798417d0483ba04c65",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0225",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 25
+      },
+      "original_sha256": "22421858749e6619bbe0df15b4a6279f6310595bd088de358a4aa5363f80c9c7",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0226",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 14,
+        "table": 26
+      },
+      "original_sha256": "ca034d88dbb5ad604aca8a320dd3e81b25fea42a215a49a8eab2cac8eeba1929",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 13,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0227",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 16,
+        "table": 26
+      },
+      "original_sha256": "37bd6f55e63ab6012c1718df654d6af4bc888789bce196c1741b5d318aa91419",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0228",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 17,
+        "table": 26
+      },
+      "original_sha256": "2700da17e33950aee6903f48f24d2501d3cb56a246937a465c14207dec5d3b37",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 25,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0229",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 18,
+        "table": 26
+      },
+      "original_sha256": "99ed5471d35da1110dadd334f02bd40202f958e2e21871c5df5a2b168a24dac0",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 13,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0230",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 20,
+        "table": 26
+      },
+      "original_sha256": "162fd8d5f86a5ca922c866c31a98a052429abd26038f3c81bd01d3a1a16c81f0",
+      "replacement": "Example Company 030 Pvt. Ltd.",
+      "span": {
+        "end": 26,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0231",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 22,
+        "table": 26
+      },
+      "original_sha256": "59c395d32210f0dfae422c85126fd3dacbe4ebbfcd12d05a08bb66c526196c20",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0232",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 23,
+        "table": 26
+      },
+      "original_sha256": "a4406acff59572647afcf4ac11885eedffba0712092d604e35f9d2da06cb94d1",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0233",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 24,
+        "table": 26
+      },
+      "original_sha256": "79fe0abac08c6fbfce61e5e772fd7ef357c2901a67b6ab08305ca0dd41d37c57",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 10,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0234",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 25,
+        "table": 26
+      },
+      "original_sha256": "ad519b0f9b4f47ba2191a682b7a111e28deb62b134770fd03aa2b054a97d15b8",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0235",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 26,
+        "table": 26
+      },
+      "original_sha256": "fbc641e7b4146bccef3b19820fe67f9e786b1946443c32f89e27d4b6090aad12",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 13,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0236",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 27,
+        "table": 26
+      },
+      "original_sha256": "2e87d1ef3520e2a4347773a63ed812dafacc1bfb21e7a6e94b2ec0b5f2fc0790",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 13,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0237",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 26
+      },
+      "original_sha256": "6df07765b0a4742ab0f7d964284b7c0d5eded5f4c380859caae6b552b0b556be",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0238",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 26
+      },
+      "original_sha256": "97c7f14095f3c9c4dc805bc398903045927f0901cf036d90851c083459642048",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0239",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 26
+      },
+      "original_sha256": "cc8a69bca1ba2bff6733bb5ae93362f2bb2f0d1a14650abeb063ce4acd01388b",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0240",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 26
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0241",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 29
+      },
+      "original_sha256": "03696150770c3154c68f2ce9fa3c2e7dabcef8af158095b3bcb1d76bb05ef428",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 14,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0242",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 29
+      },
+      "original_sha256": "f589d777c1e1adf1820bcf31f13f7e19110049d12a7d521c051f5d8723325f40",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0243",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 29
+      },
+      "original_sha256": "8f5325e1fb1655d97b72963f320e069ac181ee730f9b32327884e1dbb2629b2b",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 15,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0244",
+      "location": {
+        "cell": 6,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 29
+      },
+      "original_sha256": "045a987b0d88851b661688444e4b5ae6c5ed7013c76d3a564626378a0d2ac467",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 27,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0245",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 12,
+        "table": 29
+      },
+      "original_sha256": "550327394236ff581b4d2d02a95da1a03d5ddc1600f5e2703968afcef7a27e71",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 11,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0246",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 13,
+        "table": 29
+      },
+      "original_sha256": "ec4c0c5ca25eb15a45353c4285ebb3692ffbc83bea8e6a0346b909a627864858",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 16,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0247",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 15,
+        "table": 29
+      },
+      "original_sha256": "50c72d8cc57580cbd9ca727ad29c15fb27eec7ebe605d9b4e5007713889b8706",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 10,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0248",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 16,
+        "table": 29
+      },
+      "original_sha256": "33890d0941c3b4c45d014b24b790491879ffa94f25107cecc2934583eaa1d65b",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 15,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0249",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 3
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 36,
+        "start": 15
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0250",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 3
+      },
+      "original_sha256": "cc51bd39854cd82ce4f0d5435ca8bce7c6063adc8d91be8cfb463c30fe528876",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 57,
+        "start": 38
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0251",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 3
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 78,
+        "start": 59
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0252",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 3
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 98,
+        "start": 80
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0253",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 3
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 119,
+        "start": 100
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0254",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "5b0959bc8ea5321a421b072874b5cba389f4600a397acc5dfce113a2e38eb6df",
+      "replacement": "Example Company 009 Pvt. Ltd.",
+      "span": {
+        "end": 32,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0255",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 4,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "54808e67ea03f3a4afc7d61dadf41fbd5d0cc1acb73a18c1467762486aa5cb34",
+      "replacement": "user003@example.test",
+      "span": {
+        "end": 26,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0256",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 5,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "20c67b0c391b87ea67e559768c5b2e72c658ad1f15f4f0705aa9b3796e16291e",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 23,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0257",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 6,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "a1b18de93f943150b6968aa27ac9e92488e12d2b7afbab5194fdf8c5ceb10dad",
+      "replacement": "user004@example.test",
+      "span": {
+        "end": 55,
+        "start": 26
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0258",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 7,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "7d912cab1889aaaf31a33efb4073661d07ebd291e966ba45c49a116ae62c607a",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 27,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0259",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 7,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "bfb50664ad8d97831e48c73a9478bdb813c175c191e110b726d7faaebec393f0",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 43,
+        "start": 29
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0260",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 8,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "1eecc7e8403160d85b93eafcdaeb2a0fc250f273160c7e92c12e7869d9d32f5e",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 38,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0261",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "770adc0d72b337317f045f8995c975c981daa041c2687f4078e6bc98804e68f6",
+      "replacement": "Example Company 021 Pvt. Ltd.",
+      "span": {
+        "end": 24,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0262",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 3,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "13e7d4dffd909e3a8121d4ab9c4aa1dc248be4e0a45292b278b81d6fdd6088e6",
+      "replacement": "+91 90000 00002",
+      "span": {
+        "end": 21,
+        "start": 5
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0263",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 4,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "16ada0cfb0d996b2cdf5cd0ba6ce4610cd0b14f3e6ff38a2ab4a360c1c17d83e",
+      "replacement": "user005@example.test",
+      "span": {
+        "end": 31,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0264",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 5,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "89633d037bd23dd4849f4a4115121d7df1a665c8ac443620abfbb6d45003bf66",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 32,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0265",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 6,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "0b215450231a5a5931dfe1d0e202fa41ca6d4494a6f175d204870cbb8e793be1",
+      "replacement": "user006@example.test",
+      "span": {
+        "end": 58,
+        "start": 26
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0266",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 7,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "e3fd049d7fe9146d07f7aacb685a2decaf932437a9152dbe30a5de23cc1a597e",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 30,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0267",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 7,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "96ec45c37b6d588e19a98fa03d79f79cca3a51c629c20672a8342b9ef2954f3a",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 44,
+        "start": 31
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0268",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 8,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "ea7ead583ca2becf903c8383b7d9eae608efd0febf643db3682d81f8613381a7",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 38,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0269",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "f257cdef32a17928a26b4fe7d37293fb35586e5cfde34422480dcf6f7ed1eee2",
+      "replacement": "Example Company 010 Pvt. Ltd.",
+      "span": {
+        "end": 33,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0270",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "5f7d1b6fb2fb1a2f87f09378c146652fb61fa40dd565408e0c56763fbb3bf266",
+      "replacement": "Example Company 011 Pvt. Ltd.",
+      "span": {
+        "end": 43,
+        "start": 1
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0271",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 4,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "05cce92c2f49b467623c834909094d46587875d89980c466f57ebe9203b1e812",
+      "replacement": "+91 90000 00005",
+      "span": {
+        "end": 20,
+        "start": 5
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0272",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 5,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "7ce24de99d9ffdb52b23492ee0635ed2d19b3dbdb4f1f634a84e101d432f177b",
+      "replacement": "user010@example.test",
+      "span": {
+        "end": 45,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0273",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 7,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "7ce24de99d9ffdb52b23492ee0635ed2d19b3dbdb4f1f634a84e101d432f177b",
+      "replacement": "user010@example.test",
+      "span": {
+        "end": 64,
+        "start": 27
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0274",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 8,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "060f7afee06645eef97444f81ba0708025739a82ec7cd8d0396466ae0f461ead",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 36,
+        "start": 16
+      },
+      "validation": [
+        "person_role_label"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0275",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 9,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "4738051210bdfe2ae4346286fff90ce33f2332bc7b18a3ce62b0cdd015cf80a7",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 38,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0276",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 17,
+        "table": 3
+      },
+      "original_sha256": "5b3da4797603a1f2fbdb179722a45555ba2c9d95241e140578326f3e78b90551",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 31,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0277",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 17,
+        "table": 3
+      },
+      "original_sha256": "10aa7c2a996b8a252213af7001c64ec5ee7c96ccf398b24e2c7fd4af13bd279c",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0278",
+      "location": {
+        "cell": 5,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 17,
+        "table": 3
+      },
+      "original_sha256": "a488d0f9657f28ba2de6fa7473e5fcf9360397c907f342650207760d87607887",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0279",
+      "location": {
+        "cell": 8,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 17,
+        "table": 3
+      },
+      "original_sha256": "97d7046bcefbb2f73f8b1b7620a4f67491aa06441fbf8fcca8c971ad1fd5901c",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 27,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0280",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 2,
+        "table": 3
+      },
+      "original_sha256": "c0b5a8a8b30dfbf126f52209149156a351910ae52516150eec2f013c2432a641",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 120,
+        "start": 104
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0281",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 9,
+        "table": 3
+      },
+      "original_sha256": "ab3ff3b823d4b49e1072abbfa39414e90326a9973e859b170a0ac5c6d9dd7734",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 67,
+        "start": 44
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0282",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 32
+      },
+      "original_sha256": "7b97acb51947749d2455e0076449601f18ffa89e4027667debf47921480d8cce",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0283",
+      "location": {
+        "cell": 11,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 32
+      },
+      "original_sha256": "9d389054252131ef3bd0b225c13293aef5b4f44e70191a878cf5ffd931123b4c",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 28,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0284",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 32
+      },
+      "original_sha256": "1005ff74c4abf114d84cb6aaa9dbbfdd3c4f64cbf840783d4953c98be28aa20d",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0285",
+      "location": {
+        "cell": 5,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 32
+      },
+      "original_sha256": "9d389054252131ef3bd0b225c13293aef5b4f44e70191a878cf5ffd931123b4c",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 28,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0286",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 32
+      },
+      "original_sha256": "9d389054252131ef3bd0b225c13293aef5b4f44e70191a878cf5ffd931123b4c",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 28,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0287",
+      "location": {
+        "cell": 9,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 32
+      },
+      "original_sha256": "9d389054252131ef3bd0b225c13293aef5b4f44e70191a878cf5ffd931123b4c",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 28,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0288",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 10,
+        "table": 32
+      },
+      "original_sha256": "a82b54f4acc4e602e632237d7e9ea1791845fff5b2e0a0549db3a0b5a9002b13",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 12,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0289",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 10,
+        "table": 32
+      },
+      "original_sha256": "11a5663b777f9cd8f80695a85d9e80d87302bf0b2ea87146861c7a84f97939b4",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 7,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0290",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 32
+      },
+      "original_sha256": "b086db9ae3765cd4f6169043566e846c8f4908b4a4019233d50f76035fab2b57",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0291",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 32
+      },
+      "original_sha256": "09a6a7e363cc52916f302130c4c7ff9675d94317331f2927947037f88a30f731",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0292",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 2,
+        "table": 32
+      },
+      "original_sha256": "f4e949587535e29b04db9b91d3dc2504ea397dc5f22402fc367bf08a03df08c2",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 16,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0293",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 32
+      },
+      "original_sha256": "b086db9ae3765cd4f6169043566e846c8f4908b4a4019233d50f76035fab2b57",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 17,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0294",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 32
+      },
+      "original_sha256": "944af30440458eb7b0b9fb272d09ca5c10cfbf3efaf0ce2f26d9624d6bbbe5f6",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 15,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0295",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 3,
+        "table": 32
+      },
+      "original_sha256": "f4e949587535e29b04db9b91d3dc2504ea397dc5f22402fc367bf08a03df08c2",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 16,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0296",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 3,
+        "row": 4,
+        "table": 32
+      },
+      "original_sha256": "2b39eedca4dcd44ee5480cde8dabf06708c45b4386bfa40af841ee6e77902e71",
+      "replacement": "Example Company 031 Pvt. Ltd.",
+      "span": {
+        "end": 15,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0297",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 32
+      },
+      "original_sha256": "a9f99f66fac13740c64cb6c6c25a6ed64930ecf30209627bd814c3d8fdf239d9",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 14,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0298",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 32
+      },
+      "original_sha256": "b7c0398d6f5c5771db867a4b4c20788b9e8242f8dcd35711eff156db08690908",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0299",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 32
+      },
+      "original_sha256": "ea359b47c47f1ebf4c2f2becb380184af0f00d3b5828bbb5aebfba36d9c044d6",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 12,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0300",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 32
+      },
+      "original_sha256": "a9f99f66fac13740c64cb6c6c25a6ed64930ecf30209627bd814c3d8fdf239d9",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 14,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0301",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 32
+      },
+      "original_sha256": "4adb6e905948956f6cee59dcfa6692f381ae653303d53e0c8214f391b2a96791",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0302",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 32
+      },
+      "original_sha256": "4adb6e905948956f6cee59dcfa6692f381ae653303d53e0c8214f391b2a96791",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0303",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 32
+      },
+      "original_sha256": "8a6d731957deb4b946ea88d99bff2f9e24ac701054225eb9e186480bbd05a8cf",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0304",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 9,
+        "table": 32
+      },
+      "original_sha256": "6315d53cd0f53309c1af939fa9b57da1a41e890aa61cf1ff2bb5e85c2d3a27e0",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 27,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0305",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 33
+      },
+      "original_sha256": "22421858749e6619bbe0df15b4a6279f6310595bd088de358a4aa5363f80c9c7",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0306",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 34
+      },
+      "original_sha256": "6df07765b0a4742ab0f7d964284b7c0d5eded5f4c380859caae6b552b0b556be",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0307",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 34
+      },
+      "original_sha256": "97c7f14095f3c9c4dc805bc398903045927f0901cf036d90851c083459642048",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0308",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 34
+      },
+      "original_sha256": "cc8a69bca1ba2bff6733bb5ae93362f2bb2f0d1a14650abeb063ce4acd01388b",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0309",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 34
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0310",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 36
+      },
+      "original_sha256": "22421858749e6619bbe0df15b4a6279f6310595bd088de358a4aa5363f80c9c7",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0311",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 36
+      },
+      "original_sha256": "6df07765b0a4742ab0f7d964284b7c0d5eded5f4c380859caae6b552b0b556be",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0312",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 36
+      },
+      "original_sha256": "97c7f14095f3c9c4dc805bc398903045927f0901cf036d90851c083459642048",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0313",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 36
+      },
+      "original_sha256": "cc8a69bca1ba2bff6733bb5ae93362f2bb2f0d1a14650abeb063ce4acd01388b",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0314",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 36
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0315",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 37
+      },
+      "original_sha256": "0f64e6e5b1334a56a180ede9af75233c01b299cb352cb4367b90efb0545dc4ac",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0316",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 37
+      },
+      "original_sha256": "eadf4a938665ec56f5d7df53a27e606e785fecf74e2672e867830fd539dabafd",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 14,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0317",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 16,
+        "table": 37
+      },
+      "original_sha256": "b3415d42919696954f20109be91ff4333b69ddc3bc494792ff9b1d8bbefbd131",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0318",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 17,
+        "table": 37
+      },
+      "original_sha256": "17b006a4330d5f0ffed2b2c7cfeb836ca65a5bda3b34943933356500a6b5a70c",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 23,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0319",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 18,
+        "table": 37
+      },
+      "original_sha256": "cae9ef292ce4c249b2614c00fe93b122a4c5625e8b60f9429faf9222b61923ff",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 26,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0320",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 19,
+        "table": 37
+      },
+      "original_sha256": "b69e9461e56756f1c50853266e86e129197a509376226467accb774638baf44f",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 28,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0321",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 37
+      },
+      "original_sha256": "b2510447969d391aa64094b1641de9cc69726a16421b8a183ecae3eb0320a682",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 24,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0322",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 37
+      },
+      "original_sha256": "44b7db0d503addc2274d0ca2f7705ed65bf9fb3eae60e8f8fdeb7147e9857697",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0323",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 37
+      },
+      "original_sha256": "a14b03a45bf0637d22efd40fd6f87b6768d4040b7746573afa146a8d8914fcc3",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0324",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 37
+      },
+      "original_sha256": "588a9475659bcb2ef5e3f97f42fd9ee5a483854d60807d61003beb2e2ad4101e",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0325",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 37
+      },
+      "original_sha256": "82520a506dfdb49564ceaf237d77fbd72a86bf5131f787248601959458a64f03",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0326",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 37
+      },
+      "original_sha256": "3853f7929038b525f922b0f5dedf215b0b49e9b359310920952f3b3bb0fbb460",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0327",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 4
+      },
+      "original_sha256": "6159fa52a5742e5c748add604eebfa17c21e5be4a279b46a2718ee13529aa9d4",
+      "replacement": "Example Company 005 Pvt. Ltd.",
+      "span": {
+        "end": 25,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0328",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 5
+      },
+      "original_sha256": "ced6b17e72eac520e625eb43091824cdc01dcf1c33cf8b2cfb49d3ad6b044bfb",
+      "replacement": "Example Company 006 Pvt. Ltd.",
+      "span": {
+        "end": 73,
+        "start": 63
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0329",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 5
+      },
+      "original_sha256": "acddc29c09f2f62747d5cf17cb1896c4112aced9adc87c2e05097f89bb90da67",
+      "replacement": "Example Company 001 Pvt. Ltd.",
+      "span": {
+        "end": 172,
+        "start": 148
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0330",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 5
+      },
+      "original_sha256": "acddc29c09f2f62747d5cf17cb1896c4112aced9adc87c2e05097f89bb90da67",
+      "replacement": "Example Company 001 Pvt. Ltd.",
+      "span": {
+        "end": 349,
+        "start": 325
+      },
+      "validation": [
+        "legal_suffix",
+        "entity_context"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0331",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 11,
+        "table": 54
+      },
+      "original_sha256": "c1b35ca24f03b78f9f724c651ad24ebcd3c46470dcebbbf8e50ac22f5000dac4",
+      "replacement": "Example Company 032 Pvt. Ltd.",
+      "span": {
+        "end": 108,
+        "start": 82
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0332",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 9,
+        "table": 54
+      },
+      "original_sha256": "c1b35ca24f03b78f9f724c651ad24ebcd3c46470dcebbbf8e50ac22f5000dac4",
+      "replacement": "Example Company 032 Pvt. Ltd.",
+      "span": {
+        "end": 101,
+        "start": 75
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0333",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 56
+      },
+      "original_sha256": "03696150770c3154c68f2ce9fa3c2e7dabcef8af158095b3bcb1d76bb05ef428",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 14,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0334",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 56
+      },
+      "original_sha256": "f589d777c1e1adf1820bcf31f13f7e19110049d12a7d521c051f5d8723325f40",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 20,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0335",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 56
+      },
+      "original_sha256": "8f5325e1fb1655d97b72963f320e069ac181ee730f9b32327884e1dbb2629b2b",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 15,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0336",
+      "location": {
+        "cell": 6,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 56
+      },
+      "original_sha256": "045a987b0d88851b661688444e4b5ae6c5ed7013c76d3a564626378a0d2ac467",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 27,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0337",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 12,
+        "table": 56
+      },
+      "original_sha256": "550327394236ff581b4d2d02a95da1a03d5ddc1600f5e2703968afcef7a27e71",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 11,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0338",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 13,
+        "table": 56
+      },
+      "original_sha256": "ec4c0c5ca25eb15a45353c4285ebb3692ffbc83bea8e6a0346b909a627864858",
+      "replacement": "Rohan Rao",
+      "span": {
+        "end": 16,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0339",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 15,
+        "table": 56
+      },
+      "original_sha256": "50c72d8cc57580cbd9ca727ad29c15fb27eec7ebe605d9b4e5007713889b8706",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 10,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0340",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 16,
+        "table": 56
+      },
+      "original_sha256": "33890d0941c3b4c45d014b24b790491879ffa94f25107cecc2934583eaa1d65b",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 15,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0341",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 11,
+        "table": 6
+      },
+      "original_sha256": "cabe365c8cdca90e4157cb044f71d012c40a304ff5a5705397ff4317f156a76c",
+      "replacement": "Example Company 033 Pvt. Ltd.",
+      "span": {
+        "end": 46,
+        "start": 13
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0342",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 14,
+        "table": 6
+      },
+      "original_sha256": "acddc29c09f2f62747d5cf17cb1896c4112aced9adc87c2e05097f89bb90da67",
+      "replacement": "Example Company 001 Pvt. Ltd.",
+      "span": {
+        "end": 77,
+        "start": 53
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0343",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 6
+      },
+      "original_sha256": "5906943a1af3be01289177c3134b8e34332165551eb4ead2617c6f01f35128c3",
+      "replacement": "Example Company 002 Pvt. Ltd.",
+      "span": {
+        "end": 43,
+        "start": 0
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0344",
+      "location": {
+        "cell": 5,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 70
+      },
+      "original_sha256": "c30a58d290b9a09d731ba0d030d625e3e7bdbd6fe146db07cd0afb0019f89674",
+      "replacement": "Meera Nair",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0345",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 70
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0346",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 70
+      },
+      "original_sha256": "c6b1163e71ded8c6e0896a25d6280d8fbc70321028e127f4efe1a2bb958cbf68",
+      "replacement": "Vihaan Gupta",
+      "span": {
+        "end": 23,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0347",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 70
+      },
+      "original_sha256": "cc51bd39854cd82ce4f0d5435ca8bce7c6063adc8d91be8cfb463c30fe528876",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0348",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 70
+      },
+      "original_sha256": "c7c15707b880f33adf1891604d22964425f583341e4b8e21fac7b91bd7484223",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0349",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 70
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0350",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 70
+      },
+      "original_sha256": "caa591856f6166b87e2b742c7b3f5ec32a97861e6642f4ee58e65fbb4d2e1abe",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0351",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 70
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0352",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 70
+      },
+      "original_sha256": "caa591856f6166b87e2b742c7b3f5ec32a97861e6642f4ee58e65fbb4d2e1abe",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0353",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 71
+      },
+      "original_sha256": "cefd3ada3087432149ca8cc10a8aa822121efdffff023303182744f5f0e4f7d3",
+      "replacement": "Aarav Mehta",
+      "span": {
+        "end": 21,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0354",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 71
+      },
+      "original_sha256": "7bd063e2cc375bbe52f06601d10012781b8739c9568ba34a1fb3f34886ed07a6",
+      "replacement": "103 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 161,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:6"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0355",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 71
+      },
+      "original_sha256": "68923cdb38a8cf4914ecf7e52541a5bb2ccd00141d8320f1b5f28165fd3ac095",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0356",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 3,
+        "table": 71
+      },
+      "original_sha256": "df093d33040aab3451d9908281d5bd47f054ed16de2b00be28285d33d9421ba4",
+      "replacement": "104 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 103,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:4"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0357",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 71
+      },
+      "original_sha256": "2f8cdc2a38aa2b7dc5f1d7ab768855727c576e0a25133acf602bbb6a9bcf0207",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0358",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 71
+      },
+      "original_sha256": "2d7f5515e0c7f9c2903ce8619ddcd88562213bed1547cb52db8746caab9c3f18",
+      "replacement": "105 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 141,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:8"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0359",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 71
+      },
+      "original_sha256": "c656b8a689ce66e6e88ab06ff658df8259ddbfb5a7fb4d22d9059c8f3486eb56",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 19,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0360",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 5,
+        "table": 71
+      },
+      "original_sha256": "741c1edbf61221c640fafed75c90be5fc649dd66013b2da4fa172018beb4d047",
+      "replacement": "106 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 63,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:2"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0361",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 5,
+        "table": 71
+      },
+      "original_sha256": "a067ba52245a1d2220c79f9c5044a720fdb59920c9ba0007ba4abadca244e376",
+      "replacement": "107 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 109,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:4"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0362",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 71
+      },
+      "original_sha256": "3e6a24203114f6cbf762df254cc97f323110fd360e619a12f594d4c64204c5a3",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 22,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0363",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 6,
+        "table": 71
+      },
+      "original_sha256": "3ee87633d40d1ed27af7e28507f5ad01de679479d13e1b3618e7a8ce7c363286",
+      "replacement": "108 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 120,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:4"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0364",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 71
+      },
+      "original_sha256": "b94e6a36dd26a395ffb78109193fdd831c447063b51809960de6e2ab88a7e89b",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 18,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0365",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 7,
+        "table": 71
+      },
+      "original_sha256": "63f4d64decc2cfb8a4ab818c72a71e0673f87a08df58316b580598d884549c5f",
+      "replacement": "109 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 102,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:5"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0366",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 71
+      },
+      "original_sha256": "fc34173e02d109630e05b52f0793dbdd712420392dc8a9644ff3173ff978a932",
+      "replacement": "Diya Shah",
+      "span": {
+        "end": 16,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0367",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 8,
+        "table": 71
+      },
+      "original_sha256": "9e25729f3ee8bd94a5e7decae00380afb2dedfcb75c0fc896f9db5895be73413",
+      "replacement": "110 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 91,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:2"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0368",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 9,
+        "table": 71
+      },
+      "original_sha256": "07906a2f0c4e30c3bef42c1c59161118049d2c24818cf36bd6e46210de164a8e",
+      "replacement": "Ishaan Kapoor",
+      "span": {
+        "end": 10,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "ADDRESS",
+      "confidence": "high",
+      "id": "det-0369",
+      "location": {
+        "cell": 4,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 9,
+        "table": 71
+      },
+      "original_sha256": "f03edb99a10aae67a04c235d4aecc6168d146852f114cba5243dc0210b44daa5",
+      "replacement": "111 Example Road, Example Nagar, Pune - 400001, Maharashtra, India",
+      "span": {
+        "end": 74,
+        "start": 0
+      },
+      "validation": [
+        "address_context",
+        "address_signals:5"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0370",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 2,
+        "table": 74
+      },
+      "original_sha256": "aa7d830874d2e815dc6e7b36f64946b8597fff40c766b099ce8b0bbfdf429bf6",
+      "replacement": "Example Company 015 Pvt. Ltd.",
+      "span": {
+        "end": 21,
+        "start": 10
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "COMPANY",
+      "confidence": "medium",
+      "id": "det-0371",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 3,
+        "row": 2,
+        "table": 74
+      },
+      "original_sha256": "d28025bfce0c535aec128f77e67be969a863f4ebf5a10444796ad3b3dcf9453f",
+      "replacement": "Example Company 034 Pvt. Ltd.",
+      "span": {
+        "end": 41,
+        "start": 29
+      },
+      "validation": [
+        "legal_suffix",
+        "short_entity_cell"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0372",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 5,
+        "row": 2,
+        "table": 74
+      },
+      "original_sha256": "3e721555ff05d398f95585964da6ac23a8955ede5eae67d320816044e7a124a3",
+      "replacement": "user017@example.test",
+      "span": {
+        "end": 39,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PHONE",
+      "confidence": "high",
+      "id": "det-0373",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 6,
+        "row": 2,
+        "table": 74
+      },
+      "original_sha256": "51dbcaf57d22815f9614ce4e5e2336c6cee9f2272bdf4e99990d4cd77169a78e",
+      "replacement": "+91 90000 00006",
+      "span": {
+        "end": 28,
+        "start": 11
+      },
+      "validation": [
+        "plausible_indian_phone_digits"
+      ]
+    },
+    {
+      "category": "EMAIL",
+      "confidence": "high",
+      "id": "det-0374",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 2,
+        "row": 3,
+        "table": 74
+      },
+      "original_sha256": "4d046a9af9cdee9493d94d7d24f3f6da3e0318a536f8ba4f3fec874cd59385b6",
+      "replacement": "user026@example.test",
+      "span": {
+        "end": 28,
+        "start": 8
+      },
+      "validation": [
+        "bounded_email_shape"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "high",
+      "id": "det-0375",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 1,
+        "table": 75
+      },
+      "original_sha256": "a80e3f1c08258503c6779a782a383684c73eb904096082aa76dd39e884ca4dc5",
+      "replacement": "Kavya Iyer",
+      "span": {
+        "end": 34,
+        "start": 0
+      },
+      "validation": [
+        "person_oriented_table_column"
+      ]
+    },
+    {
+      "category": "PERSON_NAME",
+      "confidence": "medium",
+      "id": "det-0376",
+      "location": {
+        "cell": 2,
+        "kind": "table_cell",
+        "paragraph": 1,
+        "row": 4,
+        "table": 8
+      },
+      "original_sha256": "8f02d6c9b569fcf498743a18d3a850fccaf5ed84b6168964ff71f93a9a486460",
+      "replacement": "Anaya Bose",
+      "span": {
+        "end": 101,
+        "start": 90
+      },
+      "validation": [
+        "strong_person_context"
+      ]
+    }
+  ],
+  "input": {
+    "path": "input\\Red Herring Prospectus.docx",
+    "sha256": "8b5c93f7642d659e64b51be9f6172c86c2825417f376ca1800ed331515e6f929"
+  },
+  "output": {
+    "path": "output\\redacted_prospectus.docx",
+    "sha256": "43e879af9ef15f175ef54cbadb24c245c83737a06075d67e8b1a48b73c4efaf2"
+  },
+  "schema_version": 1,
+  "skipped_candidates": [
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 167
+      },
+      "original_sha256": "99ca97c1e3715253dce4d644153a89660ca2037db02bdb5360e670ad8637e3a1",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 227
+      },
+      "original_sha256": "9c6739d70549767b64c7e8b47031d75ac3c5ce1626c6c092ca5713173dc01bc0",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 227
+      },
+      "original_sha256": "4ba4a06f182943ca89a0e3e4b04f02c08ecd0ea484d2cec5d8f6d7265d129fe2",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 227
+      },
+      "original_sha256": "41140be72fc1e650115478d7089f37c467929bfaddbc0432651542e9a3bda632",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 29
+      },
+      "original_sha256": "4ba4a06f182943ca89a0e3e4b04f02c08ecd0ea484d2cec5d8f6d7265d129fe2",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 489
+      },
+      "original_sha256": "9c6739d70549767b64c7e8b47031d75ac3c5ce1626c6c092ca5713173dc01bc0",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 489
+      },
+      "original_sha256": "4ba4a06f182943ca89a0e3e4b04f02c08ecd0ea484d2cec5d8f6d7265d129fe2",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 489
+      },
+      "original_sha256": "41140be72fc1e650115478d7089f37c467929bfaddbc0432651542e9a3bda632",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 686
+      },
+      "original_sha256": "acd325791316aa8bc058992d508e4c6a01cd9e675c86942d87c8c003a58032a6",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 759
+      },
+      "original_sha256": "7d912cab1889aaaf31a33efb4073661d07ebd291e966ba45c49a116ae62c607a",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 764
+      },
+      "original_sha256": "e3fd049d7fe9146d07f7aacb685a2decaf932437a9152dbe30a5de23cc1a597e",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 783
+      },
+      "original_sha256": "edb0034e7803588ff5c44d71461d94381133742658d321bfb630a15330bb89f3",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 789
+      },
+      "original_sha256": "e3fd049d7fe9146d07f7aacb685a2decaf932437a9152dbe30a5de23cc1a597e",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 805
+      },
+      "original_sha256": "3684399e618a2d7e9da0639461b35a6c9ef36a323637e81a6dc93c9ea475788b",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 813
+      },
+      "original_sha256": "273f3fb141ffda408612870392fb62046469ae2ddaedbb3cd0e7ce33d1a0e27c",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 820
+      },
+      "original_sha256": "0dea95ee210883fd70ecc2f5e75d756ff858dc3941fe282c040556a874ddddee",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 829
+      },
+      "original_sha256": "273f3fb141ffda408612870392fb62046469ae2ddaedbb3cd0e7ce33d1a0e27c",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 836
+      },
+      "original_sha256": "0dea95ee210883fd70ecc2f5e75d756ff858dc3941fe282c040556a874ddddee",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 844
+      },
+      "original_sha256": "273f3fb141ffda408612870392fb62046469ae2ddaedbb3cd0e7ce33d1a0e27c",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 889
+      },
+      "original_sha256": "0d167cc969c2e8539b70475d644f151cfbaefd40569cc3522df10c7f4cfb8105",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 899
+      },
+      "original_sha256": "48b917388099ca3253d3e04ed1ea36ddb40c85a11e883c66777d29c8b2240ae6",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 906
+      },
+      "original_sha256": "fa1c80540e3f817e46202430a242877d3458e41c547a14cac133169c3142d112",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 911
+      },
+      "original_sha256": "4263255903003e79a6942ae213fdc3d56941a8c91000ea3efff4b38d10f38f05",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 917
+      },
+      "original_sha256": "ddb001cbfef9489f57de52dec9cea6f8f1e16918ad6bc40627e39280b1ce30fa",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 924
+      },
+      "original_sha256": "833216a8040ce90fdd6d70e5e757319685d1cf514a6f11b98659997fef538b61",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 931
+      },
+      "original_sha256": "26b4bde70c59fd7a98a266333a7ce1067f9c1734b9f6c5ad647ce5e5442d276f",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "kind": "paragraph",
+        "paragraph": 938
+      },
+      "original_sha256": "bdc5c79c178cd20315d8cfb448ea02b468a42ecaf77f49cac5787bc484b59bf7",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "cell": 1,
+        "kind": "table_cell",
+        "paragraph": 7,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "7d912cab1889aaaf31a33efb4073661d07ebd291e966ba45c49a116ae62c607a",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "cell": 3,
+        "kind": "table_cell",
+        "paragraph": 7,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "e3fd049d7fe9146d07f7aacb685a2decaf932437a9152dbe30a5de23cc1a597e",
+      "reason": "overlaps_higher_priority_detection"
+    },
+    {
+      "category": "PERSON_NAME",
+      "location": {
+        "cell": 7,
+        "kind": "table_cell",
+        "paragraph": 8,
+        "row": 15,
+        "table": 3
+      },
+      "original_sha256": "060f7afee06645eef97444f81ba0708025739a82ec7cd8d0396466ae0f461ead",
+      "reason": "overlaps_higher_priority_detection"
+    }
+  ],
+  "warnings": [
+    "Image content exists (8 image parts); OCR is not supported."
+  ]
+}
