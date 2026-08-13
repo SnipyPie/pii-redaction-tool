@@ -34,8 +34,11 @@ You can run the application as a local HTTP API:
 The application is deployed as a Web Service on Render at:
 **https://pii-redaction-tool-u2sk.onrender.com/**
 
-- `GET https://pii-redaction-tool-u2sk.onrender.com/health`
-- `POST https://pii-redaction-tool-u2sk.onrender.com/redact` (Upload a `.docx` file as `file`)
+### How to verify the deployed API:
+1. **Health Check:** Open [https://pii-redaction-tool-u2sk.onrender.com/health](https://pii-redaction-tool-u2sk.onrender.com/health) in a browser to confirm the service is running (`{"status": "ok"}`).
+2. **Interactive UI:** Open [https://pii-redaction-tool-u2sk.onrender.com/docs](https://pii-redaction-tool-u2sk.onrender.com/docs) to access the interactive Swagger documentation automatically provided by FastAPI.
+3. **Test Redaction:** In the Swagger UI at `/docs`, expand `POST /redact` → click **Try it out** → upload a `.docx` file → click **Execute**. You will be prompted to download the redacted `.docx` output.
+4. **Note:** Visiting `https://pii-redaction-tool-u2sk.onrender.com/redact` directly in a browser sends a `GET` request. This will intentionally return `Method Not Allowed` because the endpoint requires a `POST` request with a file upload. Use the `/docs` UI or `curl` to test the endpoint.
 
 The repository includes a `render.yaml` blueprint for automated deployment.
 
