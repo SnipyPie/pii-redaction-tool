@@ -6,3 +6,8 @@ desktop.ini
 .env
 .vscode/
 .idea/
+
+# Local testing and debugging artifacts
+*test*.docx
+*test_audit.json
+reports/*dry_run_audit.json

@@ -6,17 +6,38 @@ This project redacts the PII categories required by the assignment from the supp
 
 `PERSON_NAME`, `EMAIL`, `PHONE`, `COMPANY`, `ADDRESS`, `SSN`, `CREDIT_CARD`, `DOB`, and `IP_ADDRESS`.
 
-## Install and run
+## Install and run locally
 
 Use the project virtual environment:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+### CLI
+```powershell
 .\.venv\Scripts\python.exe -m src.redactor --help
 .\.venv\Scripts\python.exe -m src.redactor --verbose
 ```
-
 The default command reads `input/Red Herring Prospectus.docx`, writes `output/redacted_prospectus.docx`, and writes `reports/redaction_audit.json`. Use `--output PATH`, `--audit PATH`, `--dry-run`, `--categories EMAIL,PHONE`, and `--overwrite` as needed. The input is never modified and output/audit files are not overwritten without `--overwrite`.
+
+### FastAPI Server
+You can run the application as a local HTTP API:
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn src.api:app --host 127.0.0.1 --port 8000
+```
+- **Health Check:** `GET http://127.0.0.1:8000/health` (Returns `{"status": "ok"}`)
+- **Redact API:** `POST http://127.0.0.1:8000/redact` (Accepts a `file` form-data field containing a `.docx` upload, and returns the redacted `.docx` directly).
+
+## Deployment
+
+The application is deployed as a Web Service on Render at:
+**https://pii-redaction-tool-u2sk.onrender.com/**
+
+- `GET https://pii-redaction-tool-u2sk.onrender.com/health`
+- `POST https://pii-redaction-tool-u2sk.onrender.com/redact` (Upload a `.docx` file as `file`)
+
+The repository includes a `render.yaml` blueprint for automated deployment.
 
 ## Approach and tradeoffs
 
